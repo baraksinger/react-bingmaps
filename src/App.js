@@ -19,7 +19,6 @@ class App extends Component{
                 {
                     "location": pushPin,
                     "option": {color: 'red'},
-                    "addHandler": {"type": "click", callback: this.callBackMethod}
                 }
             )
         });
